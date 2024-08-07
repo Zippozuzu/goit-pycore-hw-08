@@ -1,6 +1,5 @@
 from my_class import AddressBook, Record, Phone, Name
 import pickle
-import os.path
 
 def save_data(book, filename="addressbook.pkl"):
     with open(filename, "wb") as f:
